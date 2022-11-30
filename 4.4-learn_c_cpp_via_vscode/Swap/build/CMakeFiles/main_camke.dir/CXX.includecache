@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/swap.h
+iostream
+-
+
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/Swap/main.cpp
+swap.h
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/Swap/swap.h
+
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/Swap/src/swap.cpp
+swap.h
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/Swap/src/swap.h
+

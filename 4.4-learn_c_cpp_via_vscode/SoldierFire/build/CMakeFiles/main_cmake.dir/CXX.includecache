@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Gun.h
+string
+-
+
+../include/Soldier.h
+string
+-
+Gun.h
+../include/Gun.h
+
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/main.cpp
+Gun.h
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/Gun.h
+Soldier.h
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/Soldier.h
+iostream
+-
+
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/src/Gun.cpp
+Gun.h
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/src/Gun.h
+iostream
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/src/iostream
+
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/src/Soldier.cpp
+Soldier.h
+/root/cpp_linux_code/4.4-learn_c_cpp_via_vscode/SoldierFire/src/Soldier.h
+iostream
+-
+
